@@ -7,9 +7,9 @@ def main():
     st.title("Find the Largest Among 3 Numbers")
     
     st.write("Enter three numbers:")
-    a = st.number_input("Number 1", step=1)
-    b = st.number_input("Number 2", step=1)
-    c = st.number_input("Number 3", step=1)
+    a = st.number_input("Number 1", )
+    b = st.number_input("Number 2",)
+    c = st.number_input("Number 3",)
     
     if st.button("Find Largest"):
         largest = find_largest(a, b, c)
